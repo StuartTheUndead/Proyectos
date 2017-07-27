@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>KM</title>
+			<link href="css/style.css" rel="stylesheet">
+			<script src="js/jquery.js"></script>
+</head>
+<body>
+	<p id = "conversion"></p>
+		<script>
+			var kilometers = prompt("Type the value to convert");
+			if(kilometers != null) {
+				document.getElementById("conversion").innerHTML = (kilometers + "kms " + "are equivalent to " + (kilometers * 1000) + "mts.");
+				} else {
+					alert("Please enter a name!");
+					} 
+		</script>
+</body>
+</html>				
