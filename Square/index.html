@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Square and Cube</title>
+			<link href="css/style.css" rel="stylesheet">
+			<script src="js/jquery.js"></script>
+</head>
+<body>
+	<p id = "square"></p>
+		<script>
+			var number = prompt("Type in a number");
+			if(number != null) {
+				document.getElementById("square").innerHTML = ("The square of your number is " + (number * number) + " and the cube of your number is " + (number * number * number));
+				} else {
+					alert("Please enter a number!");
+					} 
+		</script>
+</body>
+</html>				
